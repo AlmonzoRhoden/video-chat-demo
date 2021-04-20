@@ -14,9 +14,6 @@ An individual project, a demo website showcasing 1-on-1 video chat or group chat
 <h2>Deployed application</h2>
 https://almonzorhoden.github.io/video-chat-demo
 
-<h2> Deployed application</h2>
-https://almonzorhoden.github.io/prework-about-me/
-
 <h2> Installation instructions </h2>
 
     None required.
