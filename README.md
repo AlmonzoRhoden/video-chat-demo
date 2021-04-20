@@ -12,7 +12,7 @@
 An individual project, a demo website showcasing 1-on-1 video chat or group chat capabilities powered by Agora.io 
 
 <h2>Deployed application</h2>
-https://almonzorhoden.github.io/video-chat-demo
+https://almonzorhoden.github.io/video-chat-demo/
 
 <h2> Installation instructions </h2>
 
