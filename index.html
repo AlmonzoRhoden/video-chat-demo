@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Importing  Agora Web SDK CDN -->
+    <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.5.2.js"></script>
+    <meta charset="UTF-8">
+    <title>Almonzo's Video Demo</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- Adding favicon -->
+    <link rel="icon" href="styles/assets/images/favicon-32x32.png" sizes="32*32" type="image/png">
+    
+</head>
+<body>
+    <h1>
+       Video Call Demo<br><small style="font-size: 14pt;">Powered by Agora.io</small>
+    </h1>
+    <h4>My video feed:</h4>
+    <div id="me"></div>
+    <h4>Remote video feed(s):</h4>
+    <div id="remote-container">
+    </div>
+    <!-- Space background Almonzo -->
+    <video autoplay muted loop id="myVideo">
+        <source src="styles/assets/images/Starwind_bg.mp4">
+        Your browser does not support HTML5 video.
+      </video>
+    <script src="./scripts/script.js"></script>
+</body>
+
+<!-- Almonzo's custom footer -->
+<footer id="footer">
+    <ul class="social">
+        <li> <img class = "icon-sizing" src = "/styles/assets/images/github-icon.png" alt="github-image"/> <a href="http://www.github.com/AlmonzoRhoden" target="_blank">Github</a></li>
+        <li><img class = "icon-sizing" src = "/styles/assets/images/linkedin-icon.png" alt="linkedin-image"/> <a href="https://www.linkedin.com/in/almonzorhoden/" target="_blank">LinkedIn</a></li>
+        <li>☕<a href="https://www.buymeacoffee.com/AlmonzoRhoden" target="_blank" alt="tea-emoji">Buy me a coffee?</a></li><br>
+        <li>© 2021 Almonzo's Video Call Demo</li>
+    </ul>
+</footer>
+
+</html>
