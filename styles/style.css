@@ -25,7 +25,7 @@ h1,h4
 {
     display: flex;
     /* Added spacing as remote video feeds looked congested */
-    /* justify-content: space-evenly; */
+    justify-content: space-evenly;
 
 }
 
